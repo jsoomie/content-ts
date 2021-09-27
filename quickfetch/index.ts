@@ -18,7 +18,7 @@ interface Todo {
   completed: boolean;
 }
 
-// keys
+// keys and url
 const todoId = 1;
 const baseData = "todos";
 const baseURL = "https://jsonplaceholder.typicode.com";
@@ -29,6 +29,11 @@ const fetch = async () => {
   const res = await axios.get(URL);
   console.log(res.data);
   const { id, title, completed } = res.data as Todo;
+  logTodo(id, title, completed);
+};
+
+// put loggin into a function to be able to call
+const logTodo = (id: number, title: string, completed: boolean) => {
   console.log(`
     ID of todo: ${id}
     TITLE of todo: ${title}
