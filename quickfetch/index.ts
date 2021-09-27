@@ -14,3 +14,5 @@ const fetch = async () => {
   const res = await axios.get(URL);
   console.log(res.data);
 };
+
+fetch();
