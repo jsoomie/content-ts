@@ -18,5 +18,3 @@ let truths: boolean[] = [true, true, false, false];
 class Car {}
 // var car will only ever refer to an instance of Car
 let car: Car = new Car();
-
-// Object literal
