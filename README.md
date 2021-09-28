@@ -23,7 +23,7 @@ Soon!
 
 ---
 ## 📝 Changelogs (Being updated...)
-9/27 - initial commit!  Add base axios request and now create interface of incoming data and set types. Create loggin function and set types to params.
+9/27 - initial commit!  Add base axios request and now create interface of incoming data and set types. Create loggin function and set types to params. Create features folder to hold explanations of types. Types are references to the methods and functions that is avaiable to use for that certain data.
 
 ---
 
