@@ -18,6 +18,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 4. [Yarn](https://yarnpkg.com/)
 5. [Axios](https://axios-http.com/docs/intro)
 6. [JSON Placeholder](https://jsonplaceholder.typicode.com/)
+7. [ts-node](https://typestrong.org/ts-node/)
 
 
 ## 📷 Screenshots
