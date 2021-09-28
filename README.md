@@ -9,7 +9,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 - [quickfetch](https://github.com/jsoomie/content-ts/tree/main/quickfetch)
   - Goal is to be able to fetch JSON data and display to the user in a neat format. Format displayed data.
 - [features](https://github.com/jsoomie/content-ts/tree/main/features)
-  - Create Date type to show methods and created own class to implement my own types for it and methods to pull from.
+  - Create Date type to show methods and created own class to implement my own types for it and methods to pull from. Difference between type annotations and type inferences.
 
 ## 💻 Technologies and packages (Being updated...)
 1. [React.js](https://reactjs.org/)
@@ -26,7 +26,7 @@ Soon!
 
 ---
 ## 📝 Changelogs (Being updated...)
-9/27 - initial commit!  Add base axios request and now create interface of incoming data and set types. Create loggin function and set types to params. Create features folder to hold explanations of types. Types are references to the methods and functions that is avaiable to use for that certain data. Created class of color and attached own methods of display hex color, its name and so on.
+9/27 - initial commit!  Add base axios request and now create interface of incoming data and set types. Create loggin function and set types to params. Create features folder to hold explanations of types. Types are references to the methods and functions that is avaiable to use for that certain data. Created class of color and attached own methods of display hex color, its name and so on. Type annotations: Code we add to tell TS what type of value a variable will refer to. Type inference: TS tries to figure out what type of value a variable refers to.
 
 ---
 
