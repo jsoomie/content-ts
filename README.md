@@ -10,6 +10,8 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
   - Goal is to be able to fetch JSON data and display to the user in a neat format. Format displayed data.
 - [features](https://github.com/jsoomie/content-ts/tree/main/features)
   - Create Date type to show methods and created own class to implement my own types for it and methods to pull from. Difference between type annotations and type inferences. Explains in detail each types and how and when to implement.
+- [maps](https://github.com/jsoomie/content-ts/tree/main/maps)
+  - First project!
 
 ## 💻 Technologies and packages (Being updated...)
 1. [React.js](https://reactjs.org/)
@@ -19,6 +21,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 5. [Axios](https://axios-http.com/docs/intro)
 6. [JSON Placeholder](https://jsonplaceholder.typicode.com/)
 7. [ts-node](https://typestrong.org/ts-node/)
+8. [faker](https://www.npmjs.com/package/faker)
 
 
 ## 📷 Screenshots
