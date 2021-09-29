@@ -1,8 +1,9 @@
-import { address, name as fakename } from "faker";
+import { company, address } from "faker";
 
-export class User {
+export class Company {
   constructor(
-    public name: string = fakename.firstName(),
+    public name: string = company.companyName(),
+    public catchPhrase: string = company.catchPhrase(),
     public location: { lat: number; lng: number } = {
       lat: parseFloat(address.latitude()),
       lng: parseFloat(address.longitude()),
