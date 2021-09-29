@@ -2,7 +2,7 @@
 import { CustomMap } from "./models";
 // import { User, Company } from "./models";
 
-new CustomMap();
+new CustomMap("map");
 
 // const user = new User();
 // console.log(user);
