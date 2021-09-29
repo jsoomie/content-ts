@@ -26,7 +26,12 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 
 
 ## 📷 Screenshots
-Soon!
+[maps](https://github.com/jsoomie/content-ts/tree/main/maps)
+
+
+<img src="./assets/maps-screen.png" width="70%">
+
+---
 
 ---
 ## 📝 Daily Logs (Being updated...)
