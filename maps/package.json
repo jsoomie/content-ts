@@ -1,0 +1,14 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<jsoomie@gmail.com>",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/faker": "^5.5.8",
+    "faker": "^5.5.3"
+  }
+}

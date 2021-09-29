@@ -28,7 +28,7 @@ Soon!
 ## 📝 Daily Logs (Being updated...)
 9/27 - initial commit!  Add base axios request and now create interface of incoming data and set types. Create loggin function and set types to params. Create features folder to hold explanations of types. Types are references to the methods and functions that is avaiable to use for that certain data. Created class of color and attached own methods of display hex color, its name and so on. Type annotations: Code we add to tell TS what type of value a variable will refer to. Type inference: TS tries to figure out what type of value a variable refers to.
 
-9/28 - Add array types. Add Class Types. Add Object literal. Add function type. TS cannot infer types in JSON.parse() returns as any instead. Add functions explanations. Add object explanations and destructuring advice. Add arrays.ts and tuples.ts. Add interfaces in regards to functions and classes. Add classes.
+9/28 - Add array types. Add Class Types. Add Object literal. Add function type. TS cannot infer types in JSON.parse() returns as any instead. Add functions explanations. Add object explanations and destructuring advice. Add arrays.ts and tuples.ts. Add interfaces in regards to functions and classes. Add classes. Starting first project that utilizes everything learned so far.
 
 ---
 
