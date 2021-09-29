@@ -1,6 +1,7 @@
 import { company, address } from "faker";
+import { Mappable } from "./index";
 
-export class Company {
+export class Company implements Mappable {
   constructor(
     public name: string = company.companyName(),
     public catchPhrase: string = company.catchPhrase(),

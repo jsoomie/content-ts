@@ -6,12 +6,12 @@
 A small project centering around [TS](https://www.typescriptlang.org/) with [REACT](https://reactjs.org/), [EXPRESS](https://expressjs.com/) and [REDUX](https://redux.js.org/).
 
 ## 🫖 Explanations
-- [quickfetch](https://github.com/jsoomie/content-ts/tree/main/quickfetch)
+- ✅ [quickfetch](https://github.com/jsoomie/content-ts/tree/main/quickfetch)
   - Goal is to be able to fetch JSON data and display to the user in a neat format. Format displayed data.
-- [features](https://github.com/jsoomie/content-ts/tree/main/features)
+- ✅ [features](https://github.com/jsoomie/content-ts/tree/main/features)
   - Create Date type to show methods and created own class to implement my own types for it and methods to pull from. Difference between type annotations and type inferences. Explains in detail each types and how and when to implement.
-- [maps](https://github.com/jsoomie/content-ts/tree/main/maps)
-  - First project! Displays user and company on a map pulling random data from fakerjs.
+- ✅ [maps](https://github.com/jsoomie/content-ts/tree/main/maps)
+  - First project! Displays user and company on a map pulling random data from fakerjs. Adds the ability to add markers depending on the latitude and longitude of said items. Displays marker details from a window that pops up on marker once clicked.
 
 ## 💻 Technologies and packages (Being updated...)
 1. [React.js](https://reactjs.org/)
@@ -21,7 +21,8 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 5. [Axios](https://axios-http.com/docs/intro)
 6. [JSON Placeholder](https://jsonplaceholder.typicode.com/)
 7. [ts-node](https://typestrong.org/ts-node/)
-8. [faker](https://www.npmjs.com/package/faker)
+8. [faker.js](https://www.npmjs.com/package/faker)
+9. [Google Maps](https://developers.google.com/maps/documentation)
 
 
 ## 📷 Screenshots
@@ -33,7 +34,7 @@ Soon!
 
 9/28 - Add array types. Add Class Types. Add Object literal. Add function type. TS cannot infer types in JSON.parse() returns as any instead. Add functions explanations. Add object explanations and destructuring advice. Add arrays.ts and tuples.ts. Add interfaces in regards to functions and classes. Add classes. Starting first project that utilizes everything learned so far.
 
-9/29 - Create maps project. Add models of user and company and exported. Add google maps.
+9/29 - Create maps project. Add models of user and company and exported. Add google maps. Add interface for limited custommap. Add User and Company markers. Update interface to take in markercontent to display within the markers infowindow. Add interface to User class and Company class.
 
 ---
 
