@@ -12,8 +12,9 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
   - Create Date type to show methods and created own class to implement my own types for it and methods to pull from. Difference between type annotations and type inferences. Explains in detail each types and how and when to implement.
 - ✅ [maps](https://github.com/jsoomie/content-ts/tree/main/maps)
   - First project! Displays user and company on a map pulling random data from fakerjs. Adds the ability to add markers depending on the latitude and longitude of said items. Displays marker details from a window that pops up on marker once clicked.
-- 🚧 [sort](https://github.com/jsoomie/content-ts/tree/main/sort)
+- ✅ [sort](https://github.com/jsoomie/content-ts/tree/main/sort)
   - Second project! To create a bubble sort method that can take in numbers, strings, and linkedlists. Despite Array.sort(), this is to showcase the use of interfaces and classes combination. Implement abstract classes.
+- 🚧 next...
 
 ## 🚜 Technologies and packages (🚜 updating...)
 1. [React.js](https://reactjs.org/)
@@ -28,13 +29,19 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 
 
 ## 📷 Screenshots (🚜 updating...)
-[maps](https://github.com/jsoomie/content-ts/tree/main/maps)
+✨[maps](https://github.com/jsoomie/content-ts/tree/main/maps)✨
 
 
 ![maps](./assets/maps-screen.png)
 
 ---
+---
 
+✨[sort](https://github.com/jsoomie/content-ts/tree/main/sort)✨
+
+![sort](./assets/sort-screen.png)
+
+---
 ---
 ## 📝 Daily Logs (🚜 updating...)
 9/27 - initial commit!  Add base axios request and now create interface of incoming data and set types. Create loggin function and set types to params. Create features folder to hold explanations of types. Types are references to the methods and functions that is avaiable to use for that certain data. Created class of color and attached own methods of display hex color, its name and so on. Type annotations: Code we add to tell TS what type of value a variable will refer to. Type inference: TS tries to figure out what type of value a variable refers to.
@@ -45,7 +52,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 
 Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats going to work with numbers, strings and such. Add typeguards. Add seperate class of numbers collection and make interface to take in the sort class. Should be able to take in numbers, characters, and linked lists as long as the 3 properties of length, a swap method, and a swap method is defined from the interface.
 
-9/30 - Add Abstract classes.
+9/30 - Add Abstract classes. Implement abstract classes and go over difference between that and interfaces.
 
 ---
 
