@@ -5,6 +5,7 @@
   "author": "<jsoomie@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^16.10.2",
     "concurrently": "^6.2.2",
     "nodemon": "^2.0.13"
   },
