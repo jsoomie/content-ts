@@ -15,7 +15,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 - ✅ [**sort**](https://github.com/jsoomie/content-ts/tree/main/sort)
   - **PROJECT #2** - To create a bubble sort method that can take in numbers, strings, and linkedlists. Despite Array.sort(), this is to showcase the use of interfaces and classes combination. Implement abstract classes.
 - 🚧 [**stats**](https://github.com/jsoomie/content-ts/tree/main/stats)
-  - **PROJECT #3** - To load CSV data, parse, analyze, and report. Introduce generics
+  - **PROJECT #3** - To load CSV data, parse, analyze, and report. Introduce generics. Composition vs Inheritance.
 
 ## 🚜 Technologies and packages (🚜 updating...)
 1. [React.js](https://reactjs.org/)
@@ -53,7 +53,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 
 Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats going to work with numbers, strings and such. Add typeguards. Add seperate class of numbers collection and make interface to take in the sort class. Should be able to take in numbers, characters, and linked lists as long as the 3 properties of length, a swap method, and a swap method is defined from the interface.
 
-**9/30** - Add Abstract classes. Implement abstract classes and go over difference between that and interfaces. Add project 3. Include csv file. Add generic to class. Create reuseable code.
+**9/30** - Add Abstract classes. Implement abstract classes and go over difference between that and interfaces. Add project 3. Include csv file. Add generic to class. Create reuseable code. Add both inheritance and composition styles.
 
 ---
 
