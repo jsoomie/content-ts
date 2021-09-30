@@ -1,15 +1,23 @@
-import fs from "fs";
+import { MatchReader } from "./MatchReader";
+import { MatchResult } from "./MatchResult";
 
-//  loads unparsed data as a string
-const matches = fs
-  .readFileSync("football.csv", {
-    encoding: "utf-8",
-  })
-  //  splits data with a new line then maps through them
-  //  and split each point with a comma to create a parsed list
-  .split("\n")
-  .map((row): string[] => {
-    return row.split(",");
-  });
+const reader = new MatchReader("football.csv");
+reader.read();
 
-console.log(matches);
+const dateOfFirstMatch = reader.data[0][0];
+console.log(dateOfFirstMatch);
+
+// [0: date, 1: home, 2: away, 3: home score, 4: away score, 5: winner[home, away, draw], coach]
+// Manchester United Wins
+let manUnitedWins = 0;
+const MAN_UNITED = "Man United";
+
+for (let match of reader.data) {
+  if (match[1] === MAN_UNITED && match[5] === MatchResult.HOME_WIN) {
+    manUnitedWins++;
+  } else if (match[2] === MAN_UNITED && match[5] === MatchResult.AWAY_WIN) {
+    manUnitedWins++;
+  }
+}
+
+console.log(`Man United won ${manUnitedWins} games`);
