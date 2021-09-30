@@ -13,7 +13,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 - ✅ [maps](https://github.com/jsoomie/content-ts/tree/main/maps)
   - First project! Displays user and company on a map pulling random data from fakerjs. Adds the ability to add markers depending on the latitude and longitude of said items. Displays marker details from a window that pops up on marker once clicked.
 - 🚧 [sort](https://github.com/jsoomie/content-ts/tree/main/sort)
-  - Second project!
+  - Second project! To create a bubble sort method that can take in numbers, strings, and linkedlists. Despite Array.sort(), this is to showcase the use of interfaces and classes combination.
 
 ## 🚜 Technologies and packages (🚜 updating...)
 1. [React.js](https://reactjs.org/)
@@ -43,7 +43,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 
 9/29 - Create maps project. Add models of user and company and exported. Add google maps. Add interface for limited custommap. Add User and Company markers. Update interface to take in markercontent to display within the markers infowindow. Add interface to User class and Company class. 
 
-Create sort project! Create tsconfig.json
+Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats going to work with numbers, strings and such. Add typeguards. Add seperate class of numbers collection and make interface to take in the sort class. Should be able to take in numbers, characters, and linked lists as long as the 3 properties of length, a swap method, and a swap method is defined from the interface.
 
 ---
 
