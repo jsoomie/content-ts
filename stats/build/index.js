@@ -1,16 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var MatchReader_1 = require("./MatchReader");
-var CsvFileReader_1 = require("./CsvFileReader");
-var ConsoleReports_1 = require("./reportTargets/ConsoleReports");
-var WinsAanalysis_1 = require("./analyzers/WinsAanalysis");
 var Summary_1 = require("./Summary");
+// import { CsvFileReader } from "./CsvFileReader";
+// import { ConsoleReport } from "./reportTargets/ConsoleReports";
+// import { WinsAnalysis } from "./analyzers/WinsAanalysis";
+// import { HtmlReports } from "./reportTargets/HtmlReport";
 //  create an object that satisfy the "DataReader" interface
-var csvFileReader = new CsvFileReader_1.CsvFileReader("football.csv");
+// const csvFileReader = new CsvFileReader("football.csv");
 //  create an instance of matchreader and pass in something satisfaying
 //  the datareader
-var matchReader = new MatchReader_1.MatchReader(csvFileReader);
+// const matchReader = new MatchReader(csvFileReader);
+var matchReader = MatchReader_1.MatchReader.fromCsv("football.csv");
 matchReader.load();
 var team = "Man United";
-var summary = new Summary_1.Summary(new WinsAanalysis_1.WinsAnalysis(team), new ConsoleReports_1.ConsoleReport());
+// const summary = new Summary(new WinsAnalysis(team), new HtmlReports());
+var summary = Summary_1.Summary.winsAnalysisWithHtmlReport(team); // Shortcut
 summary.buildAndPrintReport(matchReader.matches);
