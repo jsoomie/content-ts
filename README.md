@@ -14,8 +14,10 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
   - **PROJECT #1** - Displays user and company on a map pulling random data from fakerjs. Adds the ability to add markers depending on the latitude and longitude of said items. Displays marker details from a window that pops up on marker once clicked.
 - ✅ [**sort**](https://github.com/jsoomie/content-ts/tree/main/sort)
   - **PROJECT #2** - To create a bubble sort method that can take in numbers, strings, and linkedlists. Despite Array.sort(), this is to showcase the use of interfaces and classes combination. Implement abstract classes.
-- 🚧 [**stats**](https://github.com/jsoomie/content-ts/tree/main/stats)
+- ✅ [**stats**](https://github.com/jsoomie/content-ts/tree/main/stats)
   - **PROJECT #3** - To load CSV data, parse, analyze, and report. Introduce generics. Composition vs Inheritance. Displays given in HTML. Static methods.
+- 🚧 [**web**](https://github.com/jsoomie/content-ts/tree/main/web)
+  - **PROJECT #4** - Create a web framework!
 
 ## 🚜 Technologies and packages (🚜 updating...)
 1. [React.js](https://reactjs.org/)
