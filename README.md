@@ -79,5 +79,9 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 ## 🙏 Thanks!
 Special thanks to [Stephen Grider](https://udemy.com/user/sgslo) for guiding me and thousands of others through it all! 
 
+## LICENSE
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 
 
