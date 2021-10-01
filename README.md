@@ -27,8 +27,9 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 5. [Axios](https://axios-http.com/docs/intro)
 6. [JSON Placeholder](https://jsonplaceholder.typicode.com/)
 7. [ts-node](https://typestrong.org/ts-node/)
-8. [faker.js](https://www.npmjs.com/package/faker)
+8. [Faker.js](https://www.npmjs.com/package/faker)
 9. [Google Maps](https://developers.google.com/maps/documentation)
+10. [Parcel](https://www.npmjs.com/package/parcel)
 
 
 ## 📷 Screenshots (🚜 updating...)
@@ -64,6 +65,8 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats going to work with numbers, strings and such. Add typeguards. Add seperate class of numbers collection and make interface to take in the sort class. Should be able to take in numbers, characters, and linked lists as long as the 3 properties of length, a swap method, and a swap method is defined from the interface.
 
 **9/30** - Add Abstract classes. Implement abstract classes and go over difference between that and interfaces. Add project 3. Include csv file. Add generic to class. Create reuseable code. Add both inheritance and composition styles. Learn static methods in class.
+
+**10/1** - Add structure to webframe app.
 
 ---
 
