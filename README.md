@@ -67,7 +67,7 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 
 **9/30** - Add Abstract classes. Implement abstract classes and go over difference between that and interfaces. Add project 3. Include csv file. Add generic to class. Create reuseable code. Add both inheritance and composition styles. Learn static methods in class.
 
-**10/1** - Add structure to webframe app. Add json-server and add scripts in package.json to run them easier.
+**10/1** - Add structure to webframe app. Add json-server and add scripts in package.json to run them easier. Keys in objects can be a type as well.
 
 ---
 
