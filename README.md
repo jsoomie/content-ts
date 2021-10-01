@@ -30,6 +30,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 8. [Faker.js](https://www.npmjs.com/package/faker)
 9. [Google Maps](https://developers.google.com/maps/documentation)
 10. [Parcel](https://www.npmjs.com/package/parcel)
+11. [JSON-Server](https://www.npmjs.com/package/json-server)
 
 
 ## 📷 Screenshots (🚜 updating...)
