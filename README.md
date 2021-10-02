@@ -16,8 +16,9 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
   - **PROJECT #2** - To create a bubble sort method that can take in numbers, strings, and linkedlists. Despite Array.sort(), this is to showcase the use of interfaces and classes combination. Implement abstract classes.
 - ✅ [**stats**](https://github.com/jsoomie/content-ts/tree/main/stats)
   - **PROJECT #3** - To load CSV data, parse, analyze, and report. Introduce generics. Composition vs Inheritance. Displays given in HTML. Static methods.
-- 🚧 [**web**](https://github.com/jsoomie/content-ts/tree/main/web)
+- ✅ [**web**](https://github.com/jsoomie/content-ts/tree/main/web)
   - **PROJECT #4** - Create a web framework! Creating a barebones framworks that gets user info from storage and have the ability to change user info and save it into storage. Being able to display the given data onto an HTML template.
+- 🚧 [**something new**]()
 
 ## 🚜 Technologies and packages (🚜 updating...)
 1. [React.js](https://reactjs.org/)
@@ -56,6 +57,13 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 
 ---
 ---
+
+✨[**web**](https://github.com/jsoomie/content-ts/tree/main/web)✨
+
+![web](./assets/web-screen.png)
+
+---
+---
 ## 📝 Daily Logs (🚜 updating...)
 **9/27** - initial commit!  Add base axios request and now create interface of incoming data and set types. Create loggin function and set types to params. Create features folder to hold explanations of types. Types are references to the methods and functions that is avaiable to use for that certain data. Created class of color and attached own methods of display hex color, its name and so on. Type annotations: Code we add to tell TS what type of value a variable will refer to. Type inference: TS tries to figure out what type of value a variable refers to.
 
@@ -67,7 +75,7 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 
 **9/30** - Add Abstract classes. Implement abstract classes and go over difference between that and interfaces. Add project 3. Include csv file. Add generic to class. Create reuseable code. Add both inheritance and composition styles. Learn static methods in class.
 
-**10/1** - Add structure to webframe app. Add json-server and add scripts in package.json to run them easier. Keys in objects can be a type as well. Refactor classes to create more generic reuseable code. Create collection class that takes in data and puts it in an array for full view types in html. Create a views class to display data onto html.
+**10/1** - Add structure to webframe app. Add json-server and add scripts in package.json to run them easier. Keys in objects can be a type as well. Refactor classes to create more generic reuseable code. Create collection class that takes in data and puts it in an array for full view types in html. Create a views class to display data onto html. User able to create and save to db.
 
 ---
 
