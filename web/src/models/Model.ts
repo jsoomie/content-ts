@@ -50,7 +50,7 @@ export class Model<T extends HasId> {
     try {
       this.sync.save(this.attributes.getAll());
       this.trigger("save");
-      console.log("Saved");
+      alert("User Saved!");
     } catch (error) {
       this.trigger("error");
     }
