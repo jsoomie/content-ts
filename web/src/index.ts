@@ -7,7 +7,6 @@ const root = document.getElementById("root");
 if (root) {
   const userEdit = new UserEdits(root, user);
   userEdit.render();
-  console.log(userEdit);
 } else {
   console.log("here");
 }
