@@ -1,10 +1,9 @@
 import { User } from "./models";
-import axios from "axios";
 
-const user = new User({ id: 1 });
+const user = new User({ id: 1, name: "this is the newest name", age: 111 });
 
-user.on("change", () => {
+user.on("save", () => {
   console.log(user);
 });
 
-user.fetch();
+user.save();

@@ -10,4 +10,8 @@ export class Attributes<T> {
     Object.assign(this.data, update);
     console.log(this.data);
   }
+
+  getAll(): T {
+    return this.data;
+  }
 }

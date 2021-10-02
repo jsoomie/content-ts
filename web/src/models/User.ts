@@ -45,4 +45,13 @@ export class User {
     const res = await this.sync.fetch(id);
     this.set(res.data);
   }
+
+  async save(): Promise<void> {
+    try {
+      await this.sync.save(this.attributes.getAll());
+      this.trigger("save");
+    } catch (error) {
+      this.trigger("error");
+    }
+  }
 }
