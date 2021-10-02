@@ -46,10 +46,11 @@ export class Model<T extends HasId> {
     this.set(res.data);
   }
 
-  async save(): Promise<void> {
+  save() {
     try {
-      await this.sync.save(this.attributes.getAll());
+      this.sync.save(this.attributes.getAll());
       this.trigger("save");
+      console.log("Saved");
     } catch (error) {
       this.trigger("error");
     }
