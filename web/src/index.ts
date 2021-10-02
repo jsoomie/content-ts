@@ -8,5 +8,5 @@ if (root) {
   const userForm = new UserForm(root, user);
   userForm.render();
 } else {
-  throw new Error("root element not found");
+  console.log("here");
 }

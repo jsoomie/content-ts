@@ -1,16 +1,6 @@
-import { User } from "../models";
-
-export class UserForm {
-  constructor(public parent: Element, public model: User) {
-    this.bindModel();
-  }
-
-  bindModel(): void {
-    this.model.on("change", () => {
-      this.render();
-    });
-  }
-
+import { User, UserProps } from "../models";
+import { View } from "./index";
+export class UserForm extends View<User, UserProps> {
   eventsMap(): { [key: string]: () => void } {
     return {
       "click:.set-age": this.onSetAgeClick,
@@ -18,19 +8,16 @@ export class UserForm {
     };
   }
 
-  onSetAgeClick = (): void => {
-    this.model.setRandomAge();
-    console.log(this.model.get("age"));
-  };
-
   onSetNameClick = (): void => {
     const input = this.parent.querySelector("input");
     if (input && input.value !== "") {
       const name = input.value;
       this.model.set({ name });
-    } else {
-      return;
     }
+  };
+
+  onSetAgeClick = (): void => {
+    this.model.setRandomAge();
   };
 
   template(): string {
@@ -44,25 +31,5 @@ export class UserForm {
         <button class="set-age">Set Random Age</button>
       </div>
     `;
-  }
-
-  bindEvents(fragment: DocumentFragment): void {
-    const eventsMap = this.eventsMap();
-    for (let eventKey in eventsMap) {
-      const [eventName, selector] = eventKey.split(":");
-      fragment.querySelectorAll(selector).forEach((element) => {
-        element.addEventListener(eventName, eventsMap[eventKey]);
-      });
-    }
-  }
-
-  render(): void {
-    this.parent.innerHTML = "";
-    const templateElement = document.createElement("template");
-    if (templateElement) {
-      templateElement.innerHTML = this.template();
-      this.bindEvents(templateElement.content);
-      this.parent.append(templateElement.content);
-    }
   }
 }
