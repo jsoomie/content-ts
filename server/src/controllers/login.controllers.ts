@@ -1,5 +1,14 @@
 import { Request, Response } from "express";
 
+interface ReqBody extends Request {
+  body: { [key: string]: string | undefined };
+}
+
+/**
+ * Logins home to display some things for testing only
+ * @param req Nothing should come into req.body at this route
+ * @param res To sedn out html or json for testing only
+ */
 export const loginHome = (req: Request, res: Response) => {
   try {
     res.send(`
@@ -20,10 +29,19 @@ export const loginHome = (req: Request, res: Response) => {
   }
 };
 
-export const loginUser = (req: Request, res: Response) => {
+/**
+ * User login with email and password
+ * @param req username: string, password: string = req.body
+ * @param res login confirmation
+ */
+export const loginUser = (req: ReqBody, res: Response) => {
   try {
     const { email, password } = req.body;
-    res.send(email + password);
+    if (email && password) {
+      res.send(email + password).status(200);
+    } else {
+      res.send("Please enter correct information").status(422);
+    }
   } catch (error) {
     throw new Error(`[loginRoutes @ POST]: ${error}`);
   }
