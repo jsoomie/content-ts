@@ -35,6 +35,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 11. [JSON-Server](https://www.npmjs.com/package/json-server)
 12. [Nodemon](https://nodemon.io/)
 13. [concurrently](https://www.npmjs.com/package/concurrently)
+14. [Cookie-Session](https://www.npmjs.com/package/cookie-session)
 
 
 ## 📷 Screenshots (🚜 updating...)
