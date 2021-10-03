@@ -18,7 +18,8 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
   - **PROJECT #3** - To load CSV data, parse, analyze, and report. Introduce generics. Composition vs Inheritance. Displays given in HTML. Static methods.
 - ✅ [**web**](https://github.com/jsoomie/content-ts/tree/main/web)
   - **PROJECT #4** - Create a web framework! Creating a barebones framworks that gets user info from storage and have the ability to change user info and save it into storage. Being able to display the given data onto an HTML template.
-- 🚧 [**something new**]()
+- 🚧 [**server**](https://github.com/jsoomie/content-ts/tree/main/server)
+  - **Project #5** - Create an express server twice. First time going through without really using TS while the other time brining in Express types to full implement TS.
 
 ## 🚜 Technologies and packages (🚜 updating...)
 1. [React.js](https://reactjs.org/)
@@ -76,6 +77,8 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 **9/30** - Add Abstract classes. Implement abstract classes and go over difference between that and interfaces. Add project 3. Include csv file. Add generic to class. Create reuseable code. Add both inheritance and composition styles. Learn static methods in class.
 
 **10/1** - Add structure to webframe app. Add json-server and add scripts in package.json to run them easier. Keys in objects can be a type as well. Refactor classes to create more generic reuseable code. Create collection class that takes in data and puts it in an array for full view types in html. Create a views class to display data onto html. User able to create and save to db.
+
+**10/2** - Finish web framework app. Skeleton work familiar to Marionette.js and Backbone.js. Create a new starter app called server to use express and ts together.
 
 ---
 
