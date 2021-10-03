@@ -1,23 +1,32 @@
 import express, { Request, Response } from "express";
+import { router } from "./routes";
+// start app
 const app = express();
 
+// PORT
 const PORT = process.env.PORT || 3000;
 
+// Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.get("/", (req: Request, res: Response) => {
-  res.send(`
-    <div>
-      <h1>Hello there</h1>
-    </div>
-  `);
+// Routes
+app.use("/", router);
+
+// Routes fall back
+app.get("*", (req: Request, res: Response) => {
+  try {
+    res.send("Page 404 or server not running");
+  } catch (error) {
+    throw new Error(`[INDEX: GET REQUEST "/"]: ${error}`);
+  }
 });
 
+// server start
 app
   .listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
   })
   .on("error", (error) => {
-    throw new Error(`${error} at server creation`);
+    throw new Error(`[INDEX: SERVER CREATION]: ${error}`);
   });
