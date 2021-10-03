@@ -1,5 +1,6 @@
 .parcel-cache
 .DS_Store
+build
 # Logs
 logs
 *.log
