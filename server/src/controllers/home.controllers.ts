@@ -11,10 +11,10 @@ export const home = (req: Request, res: Response) => {
       res
         .send(
           `
-      <div>
+      <form action="/user/logout" method="POST">
         <h3>You are logged in!</h3>
-        <a href="/logout">Logout</a>
-      </div>
+        <button>Logout</button>
+      </form>
       `
         )
         .status(200);
@@ -24,7 +24,7 @@ export const home = (req: Request, res: Response) => {
           `
       <div>
         <h3>You are not logged in...</h3>
-        <a href="/login">login</a>
+        <a href="/user">login</a>
       </div>
       `
         )

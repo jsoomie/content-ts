@@ -12,7 +12,7 @@ interface ReqBody extends Request {
 export const loginHome = (req: Request, res: Response) => {
   try {
     res.send(`
-    <form method="POST">
+    <form action="/user/login" method="POST">
       <div>
         <label for="email">Email</label>
         <input name="email" type="email" />
@@ -50,5 +50,19 @@ export const loginUser = (req: ReqBody, res: Response) => {
     }
   } catch (error) {
     throw new Error(`[loginRoutes @ POST]: ${error}`);
+  }
+};
+
+/**
+ * User logout
+ * @param req req.session
+ * @param res redirects to home page
+ */
+export const logoutUser = (req: Request, res: Response) => {
+  try {
+    req.session = undefined;
+    res.redirect("/");
+  } catch (error) {
+    throw new Error(`[loginRoute @ loutuser]: ${error}`);
   }
 };
