@@ -81,7 +81,9 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 
 **10/1** - Add structure to webframe app. Add json-server and add scripts in package.json to run them easier. Keys in objects can be a type as well. Refactor classes to create more generic reuseable code. Create collection class that takes in data and puts it in an array for full view types in html. Create a views class to display data onto html. User able to create and save to db.
 
-**10/2** - Finish web framework app. Skeleton work familiar to Marionette.js and Backbone.js. Create a new starter app called server to use express and ts together.
+**10/2** - Finish web framework app. Skeleton work familiar to Marionette.js and Backbone.js. Create a new starter app called server to use express and ts together. Middleware and unknown properties makes it difficult for TS to fully integrate with js frameworks.
+
+**10/3** - Add comments to controllers.
 
 ---
 
