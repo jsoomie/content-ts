@@ -2,10 +2,10 @@ import { Router } from "express";
 import { loginHome, loginUser } from "../controllers";
 const router = Router();
 
-// GET
+// LOGIN GET
 router.get("/", loginHome);
 
-// POST LOGIN
+// LOGIN POST
 router.post("/", loginUser);
 
 export { router };

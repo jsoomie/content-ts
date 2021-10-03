@@ -1,5 +1,6 @@
 import express, { Request, Response } from "express";
 import { router } from "./routes";
+import cookieSession from "cookie-session";
 // start app
 const app = express();
 
@@ -9,6 +10,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieSession({ keys: ["kit kat dog"] }));
 
 // Routes
 app.use("/", router);

@@ -37,10 +37,16 @@ export const loginHome = (req: Request, res: Response) => {
 export const loginUser = (req: ReqBody, res: Response) => {
   try {
     const { email, password } = req.body;
-    if (email && password) {
-      res.send(email + password).status(200);
+    if (
+      email &&
+      password &&
+      email === "email@email.com" &&
+      password === "password"
+    ) {
+      req.session = { loggedIn: true };
+      res.redirect("/");
     } else {
-      res.send("Please enter correct information").status(422);
+      res.send("Invalid email or password");
     }
   } catch (error) {
     throw new Error(`[loginRoutes @ POST]: ${error}`);
