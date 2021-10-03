@@ -15,6 +15,7 @@ export const home = (req: Request, res: Response) => {
         <h3>You are logged in!</h3>
         <button>Logout</button>
       </form>
+      <a href="/protected">Protected Route</a>
       `
         )
         .status(200);
