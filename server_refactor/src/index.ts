@@ -1,6 +1,10 @@
 import express, { Request, Response } from "express";
 import { router } from "./routes";
 import cookieSession from "cookie-session";
+
+import { controllerRouter } from "./controllers/decorators";
+import "./controllers/loginController";
+
 // start app
 const app = express();
 
@@ -15,14 +19,16 @@ app.use(cookieSession({ keys: ["kit kat dog"] }));
 // Routes
 app.use("/", router);
 
+app.use(controllerRouter);
+
 // Routes fall back
-app.get("*", (req: Request, res: Response) => {
-  try {
-    res.send("Page 404 or server not running");
-  } catch (error) {
-    throw new Error(`[INDEX: GET REQUEST "/"]: ${error}`);
-  }
-});
+// app.get("*", (req: Request, res: Response) => {
+//   try {
+//     res.send("Page 404 or server not running");
+//   } catch (error) {
+//     throw new Error(`[INDEX: GET REQUEST "/"]: ${error}`);
+//   }
+// });
 
 // server start
 app
