@@ -95,7 +95,7 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 
 **10/3** - Add comments to controllers. Add home routes, login routes, and protected routes. Add logout user and cookie-session. Create a new folder in repository to full showcase TS implementation and refactor. Overview of decorators in TS.
 
-**10/4** - All things regarding metadata and how to attach to prototypes.
+**10/4** - All things regarding metadata and how to attach to prototypes. Add singleton page for router to wrap around site.
 
 ---
 
