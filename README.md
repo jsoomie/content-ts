@@ -21,7 +21,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 - ✅ [**server**](https://github.com/jsoomie/content-ts/tree/main/server)
   - **PROJECT #5** - Create an express server twice. First time going through without really using TS while the other time brining in Express types to full implement TS. 
 - 🚧 [**server_refactor**](https://github.com/jsoomie/content-ts/tree/main/server_refactor)
-  - **PROJECT #5 REFACTOR** - This is the refactor of server files to take use of classes and fully implement TS with Express.
+  - **PROJECT #5 REFACTOR** - This is the refactor of server files to take use of classes and fully implement TS with Express. Use of decorators and knowledge of metadata helps implements typescript class system to express.
 
 ## 🚜 Technologies and packages (🚜 updating...)
 1. [React.js](https://reactjs.org/)
@@ -38,6 +38,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 12. [Nodemon](https://nodemon.io/)
 13. [concurrently](https://www.npmjs.com/package/concurrently)
 14. [Cookie-Session](https://www.npmjs.com/package/cookie-session)
+15. [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata)
 
 
 ## 📷 Screenshots (🚜 updating...)
@@ -93,6 +94,8 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 **10/2** - Finish web framework app. Skeleton work familiar to Marionette.js and Backbone.js. Create a new starter app called server to use express and ts together. Middleware and unknown properties makes it difficult for TS to fully integrate with js frameworks.
 
 **10/3** - Add comments to controllers. Add home routes, login routes, and protected routes. Add logout user and cookie-session. Create a new folder in repository to full showcase TS implementation and refactor. Overview of decorators in TS.
+
+**10/4** - All things regarding metadata and how to attach to prototypes.
 
 ---
 
