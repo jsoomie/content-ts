@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import { router } from "./routes";
 import cookieSession from "cookie-session";
 
-import { controllerRouter } from "./controllers/decorators";
+import { AppRouter } from "./AppRouter";
 import "./controllers/loginController";
 
 // start app
@@ -19,16 +19,16 @@ app.use(cookieSession({ keys: ["kit kat dog"] }));
 // Routes
 app.use("/", router);
 
-app.use(controllerRouter);
+app.use(AppRouter.getInstance());
 
 // Routes fall back
-// app.get("*", (req: Request, res: Response) => {
-//   try {
-//     res.send("Page 404 or server not running");
-//   } catch (error) {
-//     throw new Error(`[INDEX: GET REQUEST "/"]: ${error}`);
-//   }
-// });
+app.get("*", (req: Request, res: Response) => {
+  try {
+    res.send("Page 404 or server not running");
+  } catch (error) {
+    throw new Error(`[INDEX: GET REQUEST "/"]: ${error}`);
+  }
+});
 
 // server start
 app
