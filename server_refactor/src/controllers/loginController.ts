@@ -7,7 +7,7 @@ class LoginController {
   getLogin(req: Request, res: Response): void {
     try {
       res.send(`
-      <form action="/user/login" method="POST">
+      <form action="/auth/login" method="POST">
         <div>
           <label for="email">Email</label>
           <input name="email" type="email" />
@@ -42,6 +42,16 @@ class LoginController {
       }
     } catch (error) {
       throw new Error(`[loginRoutes @ POST]: ${error}`);
+    }
+  }
+
+  @get("/logout")
+  getLogout(req: Request, res: Response) {
+    try {
+      req.session = undefined;
+      res.redirect("/");
+    } catch (error) {
+      throw new Error(`[loginRoute @ loutuser]: ${error}`);
     }
   }
 }

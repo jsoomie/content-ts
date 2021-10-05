@@ -4,6 +4,7 @@ import cookieSession from "cookie-session";
 
 import { AppRouter } from "./AppRouter";
 import "./controllers/loginController";
+import "./controllers/RootController";
 
 // start app
 const app = express();
@@ -17,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieSession({ keys: ["kit kat dog"] }));
 
 // Routes
-app.use("/", router);
+// app.use("/", router);
 
 app.use(AppRouter.getInstance());
 
