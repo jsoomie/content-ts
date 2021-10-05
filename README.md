@@ -20,8 +20,10 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
   - **PROJECT #4** - Create a web framework! Creating a barebones framworks that gets user info from storage and have the ability to change user info and save it into storage. Being able to display the given data onto an HTML template.
 - ✅ [**server**](https://github.com/jsoomie/content-ts/tree/main/server)
   - **PROJECT #5** - Create an express server twice. First time going through without really using TS while the other time brining in Express types to full implement TS. 
-- 🚧 [**server_refactor**](https://github.com/jsoomie/content-ts/tree/main/server_refactor)
+- ✅[**server_refactor**](https://github.com/jsoomie/content-ts/tree/main/server_refactor)
   - **PROJECT #5 REFACTOR** - This is the refactor of server files to take use of classes and fully implement TS with Express. Use of decorators and knowledge of metadata helps implements typescript class system to express.
+- 🚧[**react-redux-ts**](https://github.com/jsoomie/content-ts/tree/main/react-redux-ts)
+  - *PROJECT #6** - Create a quick todo app with REACT, redux and typescript.
 
 ## 🚜 Technologies and packages (🚜 updating...)
 1. [React.js](https://reactjs.org/)
@@ -95,7 +97,7 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 
 **10/3** - Add comments to controllers. Add home routes, login routes, and protected routes. Add logout user and cookie-session. Create a new folder in repository to full showcase TS implementation and refactor. Overview of decorators in TS.
 
-**10/4** - All things regarding metadata and how to attach to prototypes. Add singleton page for router to wrap around site.
+**10/4** - All things regarding metadata and how to attach to prototypes. Add singleton page for router to wrap around site. Create a new project folder for react redux ts.
 
 ---
 
