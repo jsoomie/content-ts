@@ -1,5 +1,5 @@
-import { Request, Response } from "express";
-import { get, controller } from "./decorators";
+import { NextFunction, Request, Response } from "express";
+import { get, post, controller, bodyValidator } from "./decorators";
 
 @controller("/auth")
 class LoginController {
@@ -21,6 +21,27 @@ class LoginController {
       `);
     } catch (error) {
       throw new Error(`[GET @ getLogin]: ${error}`);
+    }
+  }
+
+  @post("/login")
+  @bodyValidator("email", "password")
+  postLogin(req: Request, res: Response) {
+    try {
+      const { email, password } = req.body;
+      if (
+        email &&
+        password &&
+        email === "email@email.com" &&
+        password === "password"
+      ) {
+        req.session = { loggedIn: true };
+        res.redirect("/");
+      } else {
+        res.send("Invalid email or password");
+      }
+    } catch (error) {
+      throw new Error(`[loginRoutes @ POST]: ${error}`);
     }
   }
 }
