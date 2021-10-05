@@ -1,7 +1,7 @@
 import "./App.css";
 import { Home } from "./pages";
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <Home />
