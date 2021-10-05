@@ -1,5 +1,4 @@
 import express, { Request, Response } from "express";
-import { router } from "./routes";
 import cookieSession from "cookie-session";
 
 import { AppRouter } from "./AppRouter";
