@@ -37,9 +37,9 @@ export class _Work extends Component<AppProps, AppState> {
   renderList(): JSX.Element[] {
     return this.props.todos.map((todo: Todo) => {
       return (
-        <div onClick={() => this.onTodoClick(todo.id)} key={todo.id}>
+        <li onClick={() => this.onTodoClick(todo.id)} key={todo.id}>
           {todo.title}
-        </div>
+        </li>
       );
     });
   }
@@ -49,8 +49,8 @@ export class _Work extends Component<AppProps, AppState> {
     return (
       <div>
         <button onClick={this.onButtonClick}>Fetch</button>
-        {this.state.fetching ? "LOADING" : null}
-        {this.renderList()}
+        {this.state.fetching ? <h2>LOADING</h2> : null}
+        <ul>{this.renderList()}</ul>
       </div>
     );
   }
