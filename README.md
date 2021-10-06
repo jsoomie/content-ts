@@ -22,7 +22,7 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
   - **PROJECT #5** - Create an express server twice. First time going through without really using TS while the other time brining in Express types to full implement TS. 
 - ✅[**server_refactor**](https://github.com/jsoomie/content-ts/tree/main/server_refactor)
   - **PROJECT #5 REFACTOR** - This is the refactor of server files to take use of classes and fully implement TS with Express. Use of decorators and knowledge of metadata helps implements typescript class system to express.
-- 🚧[**react-redux-ts**](https://github.com/jsoomie/content-ts/tree/main/react-redux-ts)
+- ✅[**react-redux-ts**](https://github.com/jsoomie/content-ts/tree/main/react-redux-ts)
   - *PROJECT #6** - Create a quick todo app with REACT, redux and typescript.
 
 ## 🚜 Technologies and packages (🚜 updating...)
