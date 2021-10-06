@@ -80,6 +80,13 @@ A small project centering around [TS](https://www.typescriptlang.org/) with [REA
 
 ---
 ---
+
+✨[**react-redux**](https://github.com/jsoomie/content-ts/tree/main/react-redux-ts)✨
+
+![react-redux](./assets/react-screen.gif)
+
+---
+---
 ## 📝 Daily Logs (🚜 updating...)
 **9/27** - initial commit!  Add base axios request and now create interface of incoming data and set types. Create loggin function and set types to params. Create features folder to hold explanations of types. Types are references to the methods and functions that is avaiable to use for that certain data. Created class of color and attached own methods of display hex color, its name and so on. Type annotations: Code we add to tell TS what type of value a variable will refer to. Type inference: TS tries to figure out what type of value a variable refers to.
 
@@ -101,7 +108,7 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 
 **10/5** - Merged branch into main. Create basic reducer to handle fetch request.
 
-**10/6** - Create delete actions to use. Moved logic out of action/index.ts to reserver index as an export file.
+**10/6** - Create delete actions to use. Moved logic out of action/index.ts to reserver index as an export file. Finish and basic styled react project!
 
 ---
 
