@@ -101,6 +101,8 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 
 **10/5** - Merged branch into main. Create basic reducer to handle fetch request.
 
+**10/6** - Create delete actions to use. Moved logic out of action/index.ts to reserver index as an export file.
+
 ---
 
 ## ✏️ Learner
