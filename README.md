@@ -99,6 +99,8 @@ Create sort project! Create tsconfig.json. Create a bubble sort algorithm thats 
 
 **10/4** - All things regarding metadata and how to attach to prototypes. Add singleton page for router to wrap around site. Create a new project folder for react redux ts.
 
+**10/5** - Merged branch into main. Create basic reducer to handle fetch request.
+
 ---
 
 ## ✏️ Learner
